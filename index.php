@@ -1,6 +1,13 @@
 <!DOCTYPE html>
     <?php include 'header.php' ?>
-    
+    <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+</script>
     <!-- slider -->
     <div id="carouselExampleIndicators" style="position: relative;" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -142,7 +149,7 @@
         </div>
       </div>
     
-  
+ 
        
         <!-- tickets & offer -->
         <div class="tickets" style="background: url(image/ride.jpeg);background-attachment: fixed;background-size: cover;padding-bottom:90px;opacity: 0.7;">
@@ -194,30 +201,68 @@
       <div class="title">
         <h2 style="color:white;background-image: linear-gradient(#1da8dc, #98d9f0);position: relative;margin-right: 25%;margin-left:25%;border-style:solid;border-color: white;  border-radius: 15px 50px;">Collect your memories from here..</h2>
       </div><br/><br/>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="hovereffect">
-              <img class="img-responsive" src="image/g1.jpg" alt=""/>   
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="hovereffect">
-              <img class="img-responsive" src="image/g1.jpg" alt="">  
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="hovereffect">
-              <img class="img-responsive" src="image/g1.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="hovereffect">
-                <img class="img-responsive" src="image/g1.jpg" alt="">
-          </div>
-          </div><br/><br/>
-        </div><br><br/> 
-      </div>
+      <div class="container-fluid">
+		<div class="row">
+
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+							<div style="background-image:url(image/g2.jpg);" class="patlu" ></div>
+							
+							<a class="fancybox" rel="ligthbox" href="#">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g3.jpeg);" class="patlu" ></div>
+						
+							<a class="fancybox" rel="ligthbox" >
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g4.jpeg);" class="patlu" ></div>
+						
+							<a class="fancybox" rel="ligthbox" href="#">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g5.jpeg);" class="patlu" ></div>
+					
+							<a class="fancybox" rel="ligthbox" >
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g6.jpeg);" class="patlu" ></div>
+						
+							<a class="fancybox" rel="ligthbox" href="#">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g7.jpg);" class="patlu" ></div>
+							
+							<a class="fancybox" rel="ligthbox" href="#">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g8.jpg);" class="patlu" ></div>
+						
+							<a class="fancybox" rel="ligthbox" href="#">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+          <div style="background-image:url(image/g2.jpg);" class="patlu" ></div>
+							
+							<a class="fancybox" rel="ligthbox" href="http://i.imgur.com/A8FRrbS.png">
+								<!-- <div class="zoom"></div> -->
+							</a>
+					</div>
+
+		</div>
+	</div>
     </div>
     <div class="reply">
     <div class="title">
@@ -249,7 +294,10 @@
     </div>
   </div>
     <?php include 'footer.php' ?>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
   </body>
 
 

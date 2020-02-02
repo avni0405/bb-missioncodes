@@ -38,8 +38,8 @@
       <div class="pt-5 pb-4">
         <p class="float-left" style="font-size: 22px;">©All right reserved 2019</p>
         <p class="float-right footer-social" style="font-size: 22px;">
-          <i class="fa fa-facebook"></i>
-          <i class="fa fa-instagram"></i>
+         <i class="fa fa-facebook"> <a href="https://www.facebook.com/bluebubblewaterpark/" target="_blank"></a></i>
+         <i class="fa fa-instagram"> <a href="https://www.instagram.com/bluebubblewaterpark/" target="_blank"></a></i>
         </p>
       </div>
     </div>

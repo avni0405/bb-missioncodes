@@ -76,9 +76,9 @@
         </div>
             <div class="bckimg" >
                 <div class="container" style="padding-top:45px;">
-                    <p style="font-weight:100;font-size:20px;overflow:hidden;">After swimming,dancing and enjoying our rides,it's time for an unlimiteed buffet lunch for refueling and energizing your body</p>
-                    <p style="font-weight:100;font-size:20px;word-break:break-all;">Lunch:Paneer subji,Veg.subji,sweet,farsan,puri,butter chapati,Dal, Rice, Buttermilk, Salad,Papad</p>
-                    <p style="font-weight:100;font-size:20px;">Dinner:Any Two fast-food verity(unlimited)</p>
+                    <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">After swimming,dancing and enjoying our rides,it's time for an unlimiteed buffet lunch for refueling and energizing your body</p>
+                    <p style="font-weight:100;font-size:20px;word-break:break-all;text-align:center;">Lunch:Paneer subji,Veg.subji,sweet,farsan,puri,butter chapati,Dal, Rice, Buttermilk, Salad,Papad</p>
+                    <p style="font-weight:100;font-size:20px;text-align:center;">Dinner:Any Two fast-food verity(unlimited)</p>
                 </div>
             </div>
             

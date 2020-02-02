@@ -54,7 +54,7 @@
         </div>
         <div class="bckimg" style="padding-bottom:20px;" >
             <div class="container" style="padding-top:45px;">
-                <p style="font-weight:100;font-size:20px;overflow:hidden;">Coming soon to add up your thrills.</p>
+                <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">Coming soon to add up your thrills.</p>
             </div>
         </div>
         <?php include 'footer.php' ?>

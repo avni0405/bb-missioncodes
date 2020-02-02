@@ -83,7 +83,7 @@
         </div>
         <div class="bckimg" style="padding-bottom:20px;" >
             <div class="container" style="padding-top:45px;">
-                <p style="font-weight:100;font-size:20px;overflow:hidden;">Exercide up your muscles by simply enjoying swimming or playing some pool games with your gang in the jumbo pool</p>
+                <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">Exercide up your muscles by simply enjoying swimming or playing some pool games with your gang in the jumbo pool</p>
             </div>
         </div>
         <?php include 'footer.php' ?>

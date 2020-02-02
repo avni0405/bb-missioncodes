@@ -83,7 +83,7 @@
         </div>
         <div class="bckimg" style="padding-bottom:20px;" >
             <div class="container" style="padding-top:45px;">
-                <p style="font-weight:100;font-size:20px;overflow:hidden;">Enjoy with your little ones in the kid’s pool which also has small rides for them.   </p>
+                <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">Enjoy with your little ones in the kid’s pool which also has small rides for them.   </p>
             </div>
         </div>
         <?php include 'footer.php' ?>

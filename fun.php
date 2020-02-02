@@ -76,7 +76,7 @@
         </div>
         <div class="bckimg" style="padding-bottom:20px;" >
             <div class="container" style="padding-top:45px;">
-                <p style="font-weight:100;font-size:20px;overflow:hidden;">Enjoy some fascinating Indoor games with your family and friends here!</p>
+                <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">Enjoy some fascinating Indoor games with your family and friends here!</p>
             </div>
         </div>
         <?php include 'footer.php' ?>

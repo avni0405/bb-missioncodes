@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
@@ -13,6 +14,11 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript">
     $(document).ready(function () {    
@@ -48,28 +54,35 @@
           }
       }
   });
+  $(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
     </script>
   </head>
   <body>
     <!-- nav bar -->
-    <nav id="navid" class="navbar navbar-dark navbar-expand-lg nav-bk sticky-top" >
+    <nav id="navid" class="navbar  shift navbar-dark navbar-expand-lg nav-bk sticky-top" >
       <a class ="navbar-brand" href="index.php">
-        <img src="image/logo.png" alt="no image" height="80px" width="60px" />
+        <img src="image/logo.png" alt="no image" style="padding-bottom:0px;"height="90px" width="80px" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <ul class=" nav navbar-nav navbar-right" >
+        <ul class=" nav navbar-nav navbar-right ml-auto" >
           <li class="nav-item  font-weight-bold">
             <a class="nav-link text-dark  "  href="index.php">Home</a>
           </li>
-          <li class="nav-item dropdown mr-sm-2">
+          <li class="nav-item dropdown mr-sm-2 ">
             <!-- <a class="nav-link text-dark font-weight-bold dropdown-toggle"  aria-haspopup="true" aria-expanded="false  data-toggle="dropdown" href="#">Park Beauty -->
-            <a class="nav-link dropdown-toggle text-dark font-weight-bold" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-dark font-weight-bold" data-toggle="dropdown" id="Preview" href="#"  >
               Rides
             </a>
-            <div class="dropdown-menu" aria-labelledby="Preview">
+            <div class="dropdown-menu " >
               <a href="wormholl.php"  class="dropdown-item">Worm Holl</a>
               <a href="watercoster.php" class="dropdown-item">Water Coster</a>
               <a href="skyscraper.php" class="dropdown-item">Sky Scraper</a>
@@ -106,7 +119,7 @@
             </div> -->
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark font-weight-bold" href="tickets.php">Tickets& Offers</a>
+            <a class="nav-link  text-dark font-weight-bold" href="tickets.php">Tickets & Offers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-dark font-weight-bold " href="booknow.php">Book Now</a>
@@ -117,5 +130,20 @@
         </ul>
       </div>
     </nav>
+    <ul class="ct-socials">
+  <li>
+    <a href="https://www.instagram.com/bluebubblewaterpark/" target="_blank"><i class="fa fa-instagram"></i></a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/bluebubblewaterpark/" target="_blank"><i class="fa fa-facebook"></i></a>
+  </li>
+  <li>
+    <a href="booking@bluebubblewaterpark.com" target="_blank"><i class="fa fa-envelope"></i></a>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=OJI3KdfyYpI&feature=youtu.be" target="_blank"><i class="fa fa-youtube"></i></a>
+  </li>
+ 
+</ul>
 </body>
 </html>

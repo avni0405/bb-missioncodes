@@ -69,7 +69,7 @@
         </div>
         <div class="bckimg" style="padding-bottom:20px;" >
             <div class="container" style="padding-top:45px;">
-                <p style="font-weight:100;font-size:20px;overflow:hidden;">Relax up your body, enjoying the swings on the sideways of the park.</p>
+                <p style="font-weight:100;font-size:20px;overflow:hidden;text-align:center;">Relax up your body, enjoying the swings on the sideways of the park.</p>
             </div>
         </div>
         <?php include 'footer.php' ?>
