@@ -66,7 +66,7 @@
 				}
 				else {
 					$_SESSION['user'] = $username;
-					header('Location: tickets.php');
+					header('Location: ticketing.php');
 					die();
 				}
 			}

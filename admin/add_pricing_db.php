@@ -44,3 +44,4 @@
    $pdo=null;
 
    header("Location:pricing.php?msg=success");
+?>

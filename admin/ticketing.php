@@ -66,7 +66,7 @@ include('auth.php');
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Date</th>
+                    <th scope="col">Book Tickets for</th>
                     <th scope="col">Kids</th>
                     <th scope="col">Regular</th>
                     <th scope="col">Sr. Citizen</th>

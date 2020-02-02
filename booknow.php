@@ -35,12 +35,60 @@
             </div>
         </section>
 
-        <!-- booking -->
+        <?php  try{
+            include("admin/db_connect.php");
+            $q= $pdo->query("SELECT `value1` FROM `config` WHERE `key1`='booking_st'");
+            $status = $q->fetchColumn();
+            
+        ?>
+        <!-- booking -->    
         <div class="bckimg" style="margin-bottom:0px;">
-            <div class="container">
-                <p style="color:red; text-align: center;padding-top:45px;padding-bottom: 40px;font-weight: bold;">Book is currently not availble kindly contact 9081712674 for more details</p>
-            </div>
+            <?php if($status==0){
+            ?>
+                <div class="container">
+                    <p style="color:red; text-align: center;padding-top:45px;padding-bottom: 40px;font-weight: bold;">Book is currently not availble kindly contact 9081712674 for more details</p>
+                </div>
+            <?php
+            }else if(isset($_GET['msg']) && $_GET['msg']=="notavailable"){
+            ?>
+
+                <div class="container">
+                    <p style="color:red; text-align: center;padding-top:45px;padding-bottom: 40px;font-weight: bold;">Booking is not available for date <?php echo date("D, d M  Y", strtotime($_GET['date'])); ?>. kindly contact 9081712674 for more details.<br>
+                    <a href="booknow.php" class="mt-3 btn btn-primary">Book For Another Day</a>
+                    </p>
+                </div>
+            
+            <?php
+            }else if(isset($_GET['msg']) && $_GET['msg']=="success"){
+            ?>
+
+                <div class="container">
+                    <p style="color:green; text-align: center;padding-top:45px;padding-bottom: 40px;font-weight: bold;">Booking Recieved. You will get a call from our side soon! <br>
+                    <a href="booknow.php" class="mt-3 btn btn-primary">Book Another Ticket</a></p>
+                </div>
+            
+            <?php
+            }
+            else {
+            ?>
+                <div class="container">
+                <p style="color:green; text-align: center;padding-top:45px;padding-bottom: 40px;font-weight: bold;">Select the Date for your adventurous journey<br>
+
+                <form action="booknow2.php" method="POST" class="row mb-2 pb-4 justify-content-center">
+                    <input type='date' class="form-control col-md-7 mx-2" name="date" required/><br>
+                    <input type="submit" class="btn btn-primary  col-md-2 mx-2" >
+                </form>
+                </div>
+                
+            <?php
+            }
+}
+catch(exception $e){echo $e->getMessage();}
+            ?>
         </div>
         <?php include 'footer.php' ?>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js"></script>
+
     </body>
 </html>

@@ -98,29 +98,35 @@
         <div class="container-fluid">
             <div id="carousel-example" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner row w-100 mx-auto" role="listbox">
-                <div style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                  <a href="wormholl.php"><img src="image/ride01.png" class="img-fluid mx-auto d-block" alt="img1"></a>
+ 
+             <div  class=" carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                  <a href="wormholl.php"><img  style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride01.png" class="img-fluid mx-auto d-block" alt="img1"></a>
+                </div>
+             
+                
+                
+               
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="watercoster.php"> <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;"src="image/ride02.png" class="img-fluid mx-auto d-block" alt="img2"></a>
+                </div>
+                
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                  <a href="valvetthunder.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride03.png" class="img-fluid mx-auto d-block" alt="img3"></a>
                 </div>
                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <a href="watercoster.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;"src="image/ride02.png" class="img-fluid mx-auto d-block" alt="img2"></a>
+                  <a href="thriller.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride04.png" class="img-fluid mx-auto d-block" alt="img4"></a>
                 </div>
                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride03.png" class="img-fluid mx-auto d-block" alt="img3">
+                  <a href="skyscraper.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride05.png" class="img-fluid mx-auto d-block" alt="img5"></a>
                 </div>
                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride04.png" class="img-fluid mx-auto d-block" alt="img4">
+                  <a href="pendulum.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride06.png" class="img-fluid mx-auto d-block" alt="img6"></a>
                 </div>
                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride05.png" class="img-fluid mx-auto d-block" alt="img5">
+                  <a href="kidzone.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride07.png" class="img-fluid mx-auto d-block" alt="img7"></a>
                 </div>
                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride06.png" class="img-fluid mx-auto d-block" alt="img6">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride07.png" class="img-fluid mx-auto d-block" alt="img7">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride08.png" class="img-fluid mx-auto d-block" alt="img8">
+                  <a href="crazybucket.php"><img style="border-style: solid; border-color: rgba(255,255,255,0.2); border-width: 20px;" src="image/ride08.png" class="img-fluid mx-auto d-block" alt="img8"></a>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">

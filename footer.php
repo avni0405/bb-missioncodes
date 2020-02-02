@@ -5,9 +5,9 @@
         <div class="col-md-3">
           <h3><b>Site Option</b></h3>
           <ul class="site-options" style="color:#044d91;">
-            <li><a href="/about-us">About Us</a></li>
-            <li><a href="/rules-regulations">Rules & Regulations</a></li>
-            <li><a href="/service-facilities">Service & Facilities</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="rules-regulations.php">Rules & Regulations</a></li>
+            <li><a href="service-facilities.php">Service & Facilities</a></li>
           </ul>
         </div>
         <div class="col-md-5">
