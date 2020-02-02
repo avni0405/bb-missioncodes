@@ -2,11 +2,13 @@
 //establishes database connections and returns PDO variable named 'pdo'.
 //use $pdo for accessing database.
 
-$host = '127.0.0.1';
-$db   = 'bluebubble';
-$user = 'root';
-$pass = 'admin123';
+//For neelam TESING for BB
+$host = 'remotemysql.com';
+$db   = '1YJUdPIJnd';
+$user = '1YJUdPIJnd';
+$pass = 'xB7t4HzAro';
 $charset = 'utf8mb4';
+
 
 //$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [

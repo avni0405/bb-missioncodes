@@ -23,8 +23,15 @@
        echo $sql."<br>".$e->getMessage();
        die();
    }
+   
+   
+   $msg1 = $kids." KIDS (".$kids_rate.") =".($kids*$kids_rate)."<br>";
+   $msg2 = $regular." REGULAR (".$regular_rate.") =".($regular*$regular_rate)."<br>";
+   $msg3 = $srcitizen." SRCITIZEN (".$srcitizen_rate.") =".($srcitizen*$srcitizen_rate)."<br>";
+   
+   $msg = "Name : ".$name."<br>Mobile: ".$mobile."<br>Email: ".$email."<br>Details: ".$msg1.$msg2.$msg3;
+   
    $pdo=null;
-
-//    MAil
+   #header("Location:mail.php?msg=".$msg);
    header("Location:booknow.php?msg=success");
 ?>

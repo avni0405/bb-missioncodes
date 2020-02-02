@@ -153,7 +153,7 @@
           
             <a href="booknow.html" >
               <span class="dot" style="color:white;background-color:#FECA57;">
-                <p  class="booktext"><strong>Child(Above 2 years but Height below 4 feet)</strong>
+                <p  class="booktext"><strong>Child<br>(Above 2 years but Height below 4 feet)</strong>
                   <pre class="underline">_______________</pre>
                 </p>
                 <strong style="color:black;">Wednesday & Thrusday
@@ -165,7 +165,7 @@
             </a>
             <a href="booknow.html" class="cir">
               <span class="dot" style="color:white;background-color:lightblue">
-                <p  class="booktext"><strong>Child(Above 2 years but Height below 4 feet)</strong>
+                <p  class="booktext"><strong>Child<br>(Above 2 years but Height below 4 feet)</strong>
                   <pre class="underline">_______________</pre>
                 </p>
                 <strong style="color:black;">Wednesday & Thrusday
@@ -177,7 +177,7 @@
             </a>
             <a href="booknow.html" class="cir" >
               <span class="dot" style="color:white;background-color:lightpink;">
-                <p  class="booktext"><strong>Child(Above 2 years but Height below 4 feet)</strong>
+                <p  class="booktext"><strong>Child<br>(Above 2 years but Height below 4 feet)</strong>
                   <pre class="underline">_______________</pre>
                 </p>
                 <strong style="color:black;">Wednesday & Thrusday

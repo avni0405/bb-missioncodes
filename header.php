@@ -53,7 +53,7 @@
   <body>
     <!-- nav bar -->
     <nav id="navid" class="navbar navbar-dark navbar-expand-lg nav-bk sticky-top" >
-      <a class ="navbar-brand" href="index.html">
+      <a class ="navbar-brand" href="index.php">
         <img src="image/logo.png" alt="no image" height="80px" width="60px" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,7 +112,7 @@
             <a class="nav-link  text-dark font-weight-bold " href="booknow.php">Book Now</a>
           </li>
           <li class="nav-item my-2 my-sm-0">
-            <a class="nav-link text-dark font-weight-bold " href="dest.php">Your destinations is here..</a>
+            <a class="nav-link text-dark font-weight-bold " href="dest.php">Your Fun destinations is here..</a>
           </li>
         </ul>
       </div>

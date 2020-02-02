@@ -83,7 +83,7 @@ include('auth.php');
 
                 $sql = "SELECT * FROM tickets ORDER BY date_for_booking DESC";
                 $list = $pdo->query($sql)->fetchAll();
-                $i=1;
+                $i=0;
                 foreach($list as $row){
                 ?>
                 
