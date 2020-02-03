@@ -37,24 +37,32 @@
     </div>
     <div class="container-fuild flex-container">
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(#c739a1,#ed4347);">
-              <p class="service-title" style="text-align: center;">Unlimited Food</p>
+              <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h1.png">
+                  <br>Unlimited Food</p>
             </div>
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(#677ae4,#7453ad);">
-              <p class="service-title">Rain Dance</p>
+            <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h2.png">
+              <br>Rain Dance</p>
             </div>
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(#0bb4e3,#06aaef);">
-              <p class="service-title">Jumbo Pool</p>
+            <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h3.png">  
+            <br>Jumbo Pool</p>
             </div>
     </div>
     <div class="container-fuild flex-container">
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(to right,#ecce42,#22a281);">
-              <p class="service-title" style="text-align: center;">Relexing Area</p>
+            <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h4.png">
+
+              <br>Relexing Area</p>
             </div>
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(to right,#f84102,#f9cc21);">
-              <p class="service-title">Fun Center & Arcade</p>
+            <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h5.png">
+
+             <br>   Fun Center & Arcade</p>
             </div>
             <div class="box" style="border-style:solid;border-color:white;border-width:1px;height:300px;background-image: linear-gradient(to right,#6f14cd,#bb1e99); ">
-              <p class="service-title">Kid Pool</p>
+            <p class="service-title" style="text-align: center;margin-top:50px;margin:20%;padding-top:0px;"><img src="image/h2.png">
+                <br>Kid Pool</p>
             </div>
     </div>
     <!-- <div class="container-fuild" style="margin-right:30px;">

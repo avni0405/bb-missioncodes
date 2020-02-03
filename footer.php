@@ -30,7 +30,7 @@
         <div class="col-md-4">
           <h3><b>Information</b></h3>
           <ul>
-            <li>Ticket window will open at 9:30. Park timings will be 10 AM to 7 PM. Rides timings are 10 AM to 5:30 PM.
+            <li>Ticket window will open at 9:30. Park timings will be 10 AM to 5:30 PM. Rides timings are 10 AM to 5:30 PM.
             </li>
           </ul>
         </div>

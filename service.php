@@ -44,11 +44,11 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <p><i class="fas fa-parking fa-5x service-icon" ></i></p>
+                                <img src="image/s1.png">
                             </div>
                             <div class="col-xs-8">
-                                <p style="font-weight:bold">Parking</p>
-                                <p>You can park your <br>four wheeler or two<br> wheeler for free<br> during park hours <br>in parking area.</p>    
+                                <p  class="text" style="font-weight:bold">Parking</p>
+                                <p class="text">You can park your <br>four wheeler or two<br> wheeler for free<br> during park hours <br>in parking area.</p>    
                             </div>
                         </div>
                     </div>
@@ -56,11 +56,11 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <p><i class="fas fa-parking fa-5x service-icon" ></i></p>
+                            <img src="image/s2.png">
                             </div>
                             <div class="col-xs-8">
-                                <p style="font-weight:bold">Resaurant</p>
-                                <p>You can park your <br>four wheeler or two<br> wheeler for free<br> during park hours <br>in parking area.</p>    
+                                <p  class="text" style="font-weight:bold">Resaurant</p>
+                                <p class="text">You can park your <br>four wheeler or two<br> wheeler for free<br> during park hours <br>in parking area.</p>    
                             </div>
                         </div>
                     </div>
@@ -68,11 +68,11 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <p><i class="fas fa-parking fa-5x service-icon" ></i></p>
+                            <img src="image/s3.png">
                             </div>
                             <div class="col-xs-8">
-                                <p style="font-weight:bold">Cell Phone Charging</p>
-                                <p>Cell phone charging<br> points available at the<br> park. Please contact<br> our Staff or refer to <br>the park map or guide<br> to locate cell phone<br> charging points in the<br> park.
+                                <p  class="text" style="font-weight:bold">Cell Phone Charging</p>
+                                <p class="text">Cell phone charging<br> points available at the<br> park. Please contact<br> our Staff or refer to <br>the park map or guide<br> to locate cell phone<br> charging points in the<br> park.
 </p>    
                             </div>
                         </div>
@@ -84,10 +84,10 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <p><i class="fas fa-parking fa-5x service-icon " ></i></p>
+                            <img src="image/s4.png">
                             </div>
                             <div class="col-xs-8">
-                                <p style="font-weight:bold">Locker</p>
+                                <p class="text" style="font-weight:bold">Locker</p>
                                 <p class="text">Lockers available at<br> first come first serve<br> basis at minimal<br> rental charges. Please<br> contact our staff at<br> information office.<br></p>    
                             </div>
                         </div>
@@ -96,11 +96,11 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <p><i class="fas fa-parking fa-5x service-icon" ></i></p>
+                            <img src="image/s5.png">
                             </div>
                             <div class="col-xs-8">
-                                <p style="font-weight:bold">First Aid</p>
-                                <p>First-Aid is available<br> at the park. In an<br> emergency, please<br> contact our staff<br> members.</p>    
+                                <p class="text"style="font-weight:bold">First Aid</p>
+                                <p class="text">First-Aid is available<br> at the park. In an<br> emergency, please<br> contact our staff<br> members.</p>    
                             </div>
                         </div>
                     </div>
