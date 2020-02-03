@@ -421,6 +421,14 @@ transition-delay:.2s;
 	 margin: 0px;
 	 color: white;
  }
+ @media only screen and (max-width:650px)
+ {
+    .service-icon{
+    display:none;}
+    .text{
+    text-align:center;
+    }
+ }
  .service-title
  {
 	 /* text-align: center; */
