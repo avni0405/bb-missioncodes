@@ -37,14 +37,14 @@
         </section>
 
         <!-- booking -->
-        <div class="bckimg" style="margin-bottom:0px;">
+        <div  id="book" class="bckimg" style="margin-bottom:0px;">
             <div class="container" style="padding-bottom:150px;">
                 <div class="row" style="padding-top:50px;">
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                                <img src="image/s1.png">
+                                <img  class="dis"src="image/s1.png">
                             </div>
                             <div class="col-xs-8">
                                 <p  class="text" style="font-weight:bold">Parking</p>
@@ -56,7 +56,7 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                            <img src="image/s2.png">
+                            <img class="dis" src="image/s2.png">
                             </div>
                             <div class="col-xs-8">
                                 <p  class="text" style="font-weight:bold">Resaurant</p>
@@ -68,7 +68,7 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                            <img src="image/s3.png">
+                            <img class="dis" src="image/s3.png">
                             </div>
                             <div class="col-xs-8">
                                 <p  class="text" style="font-weight:bold">Cell Phone Charging</p>
@@ -84,7 +84,7 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                            <img src="image/s4.png">
+                            <img class="dis"src="image/s4.png">
                             </div>
                             <div class="col-xs-8">
                                 <p class="text" style="font-weight:bold">Locker</p>
@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="col-xs-4" style="padding-right:10px;">
                             <i class="fas fa-parking-circle"></i>
-                            <img src="image/s5.png">
+                            <img class="dis"src="image/s5.png">
                             </div>
                             <div class="col-xs-8">
                                 <p class="text"style="font-weight:bold">First Aid</p>

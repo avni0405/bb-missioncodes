@@ -406,7 +406,13 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
-
+@media only screen and (max-width:650px)
+{
+   #book img
+    {
+        display:none;
+    }
+}
 
  
  .info
