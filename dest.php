@@ -48,11 +48,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6" style="padding-bottom:50px;">
-                        <p style="font-weight: 300;font-size: 22px;">Blue Bubble Water Park ,Sayan Rd,Surat<br>Gujarat 394130</p><br>
-                        <p style="font-weight: 300;font-size: 22px;">+91 9081712674</p><br>
+                        <i class="fa fa-map-maker"></i><p style="font-weight: 300;font-size: 22px;">Blue Bubble Water Park ,Sayan Rd,Surat<br>Gujarat 394130</p><br>
+                     <p style="font-weight: 300;font-size: 22px;">  +91 9081712674</p><br>
                         <a href="mailto:booking@bluebubblewaterpark.com" style="font-weight: 300;font-size: 22px;">booking@bluebubblewaterpark.com</a>
                     </div>
                     <div class="col-md-6">
+                        <div class="input-container">
+                            <i class="fa fa-user"></i>
+                            <input type="text" placeholder="Name *">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-envelope"></i>
+                            <input type="text" placeholder="Email *">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-phone"></i>
+                            <input type="number" placeholder="Contact No *">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-comment"></i>
+                            <textarea type="textarea" placeholder="Message *"></textarea>
+                        </div>
                     </div>
                 </div>
             </div>
